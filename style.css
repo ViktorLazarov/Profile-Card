@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+hr {
+  border: 0.1px solid hsl(0, 0%, 90%);
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+  margin: 0;
+}
+.attribution {
+  position: absolute;
+  left: 435px;
+  bottom: 10px;
+  font-size: 15px;
+}
+.main {
+  width: 100%;
+  height: 620px;
+  background-color: hsl(185, 75%, 39%);
+}
+.card {
+  width: 350px;
+  height: 350px;
+  position: relative;
+  left: 450px;
+  top: 150px;
+
+}
+.top {
+  height: 100px;
+  background-image: url(https://profile-card-component-solution-three.vercel.app/images/bg-pattern-card.svg);
+  border-radius: 20px 20px 0 0;
+}
+.middle {
+  height: 160px;
+  background-color: white;
+  text-align: center;
+}
+.middle p {
+  margin: 0;
+}
+.middle-profile-name {
+  position: relative;
+  bottom: 20px;
+}
+.bottom {
+  height: 90px;
+  background-color: white;
+  border-radius: 0 0 20px 20px;
+}
+.bottom div {
+  text-align: center;
+}
+.bottom span {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+  font-size: 12px;
+}
+.bottom p {
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+#top-circle {
+  width: 800px;
+  position: absolute;
+  bottom: 230px;
+  right:700px;
+
+}
+#bottom-circle{
+  width: 800px;
+  position: absolute;
+  left: 700px;
+  top: 300px;
+
+}
+#victor {
+  width: 100px;
+  background-color: white;
+  border-radius: 100%;
+  border: 5px solid #FFF;
+  position: relative;
+  bottom:30px;
+}
+#profile-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+#age {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+}
+#city {
+  margin-top: 5px;
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+  font-size: 12px;
+}
+#followers {
+  width: 117px;
+  height: 90px;
+  position: absolute;
+}
+#likes {
+  width: 117px;
+  height: 90px;
+  position: absolute;
+  left: 117px;
+}
+#photos {
+  width: 116px;
+  height: 90px;
+  position: absolute;
+  left: 234px;
+}
