@@ -2,6 +2,9 @@ body {
   margin: 0;
   font-family: 'Kumbh Sans', sans-serif;
   background-color: hsl(185, 75%, 39%);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 hr {
   border: 0.1px solid hsl(0, 0%, 90%);
@@ -64,17 +67,17 @@ hr {
   margin-bottom: 0;
 }
 #top-circle {
-  width: 800px;
+  width: 70%;
   position: absolute;
-  bottom: 230px;
-  right:700px;
+  top:-85%;
+  left:-20%;
 
 }
 #bottom-circle{
-  width: 800px;
+  width: 70%;
   position: absolute;
-  left: 700px;
-  top: 300px;
+  bottom:-85%;
+  right: -20%;
 
 }
 #victor {
